@@ -115,7 +115,16 @@ img {
 }
 
 /*=============== RESUME ===============*/
+.resume__title{
+  font-size: var(--normal-font-size);
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: .25rem;
+}
 
+.resume__title i{
+  font-size: 1.5rem;
+}
 
 /*=============== HEADER & NAV ===============*/
 .header{
@@ -282,7 +291,24 @@ img {
 }
 
 /*=============== SKILLS ===============*/
+.skills__content,
+.skills__list{
+  display: grid;
+}
 
+.skills__content{
+  grid-template-columns: repeat(2, max-content);
+  align-items: baseline;
+  column-gap: 3rem;
+}
+
+.skills__list{
+  row-gap: 1rem;
+}
+
+.skills__list li{
+  margin: 0;
+}
 
 /*=============== EDUCATION ===============*/ 
 /* To add code or make changes to the section */
