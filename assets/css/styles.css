@@ -126,6 +126,25 @@ img {
   font-size: 1.5rem;
 }
 
+.resume__data{
+  display: grid;
+  row-gap: .5rem;
+  padding-left: 1.5rem;
+  font-size: var(--small-font-size);
+}
+
+.resume__button-link{
+  width: max-content;
+  color: var(--text-color);
+  display: inline-flex;
+  column-gap: .25rem;
+  font-weight: var(--font-semi-bold);
+}
+
+.resume__button-link:hover{
+  text-decoration: underline;
+}
+
 /*=============== HEADER & NAV ===============*/
 .header{
   position: fixed;
