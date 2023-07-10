@@ -124,6 +124,7 @@ img {
 
 .resume__title i{
   font-size: 1.5rem;
+  font-weight: initial;
 }
 
 .resume__data{
