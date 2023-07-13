@@ -213,8 +213,10 @@ img {
 }
 
 /* Active link */
-
-
+.active-link::after{
+  opacity: 1;
+  transform: translateY(-4px);
+}
 
 /*=============== HOME ===============*/
 .home__container{
